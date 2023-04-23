@@ -9,7 +9,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.4.1",
     "@types/node": "^18",
     "nuxt": "^3.4.2"
+  },
+  "peerDependencies": {
+    "vite": "^4.0.0"
   }
 }
